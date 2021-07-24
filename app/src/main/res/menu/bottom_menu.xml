@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/email_bottom_menu_id"
+        android:icon="@drawable/ic_email_24"
+        android:title="Email" />
+
+    <item
+        android:id="@+id/call_bottom_menu_id"
+        android:icon="@drawable/ic_call_24"
+        android:title="Call" />
+
+    <item
+        android:id="@+id/message_bottom_menu"
+        android:icon="@drawable/ic_message_24"
+        android:title="Message" />
+
+</menu>
