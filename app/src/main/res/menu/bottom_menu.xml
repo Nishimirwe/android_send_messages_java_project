@@ -11,7 +11,7 @@
         android:title="Call" />
 
     <item
-        android:id="@+id/message_bottom_menu"
+        android:id="@+id/message_bottom_menu_id"
         android:icon="@drawable/ic_message_24"
         android:title="Message" />
 
