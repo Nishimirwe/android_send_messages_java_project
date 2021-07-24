@@ -14,18 +14,7 @@ public class MessagePreviewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding=ActivityMessagePreviewBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        String PhoneNumber="No number";
-        String Message="No Message";
-        String setMessage="Nothing";
-        Intent intent=getIntent();
-        if(intent != null)
-        {
-//            MessageClass MessageFromIntent= (MessageClass) intent.getSerializableExtra("Message");
-//            PhoneNumber=MessageFromIntent.getNumber();
-            Message=intent.getStringExtra("Message");
-            PhoneNumber=intent.getStringExtra("PhoneNumber");
-        }
-        binding.previewTextViewId.setText(intent.getStringExtra("Message"));
+
 
     }
 }

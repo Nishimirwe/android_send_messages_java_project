@@ -47,10 +47,7 @@ public class MessageFragment extends Fragment {
                 initializeData();
                 if(areDataValidated())
                 {
-                    Intent i=new Intent(getContext(),MessagePreviewActivity.class);
-                    getContext().startActivity(i);
-                    i.putExtra("Message",binding.phoneNumberTextId.getText().toString());
-                    i.putExtra("PhoneNumber",binding.phoneNumberTextId.getText().toString());
+                    // Here, it is time to send data to Extra, and transfer in Intent to another activity
                 }
                 else
                 {
